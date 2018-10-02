@@ -1,0 +1,19 @@
+<channel
+   name="demo_Channel4"
+   guid="964029055451168747632E62046D9BA9"
+   description=""
+   start_automatically="false"
+   logging_level="1"
+   use_message_filter="false">
+   <to_mapper
+      guid="demo_Channel4-To-Y2ROUJW16jT22p"
+      commit_id="6ea2f4935791c08b876a372e88acb5fba00b2a78"
+      commit_comment="Import Translators: d">
+      <dequeue_list>
+         <dequeue
+            source_name="demo_Channel1"
+            dequeue_guid="49834A85211428CFD63DB2D326B7CCA2"/>
+      </dequeue_list>
+   </to_mapper>
+   <from_channel/>
+</channel>

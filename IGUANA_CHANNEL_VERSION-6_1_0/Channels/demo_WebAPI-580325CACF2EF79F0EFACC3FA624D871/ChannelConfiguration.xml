@@ -1,0 +1,27 @@
+<channel
+   name="demo_WebAPI"
+   guid="580325CACF2EF79F0EFACC3FA624D871"
+   description=""
+   start_automatically="false"
+   logging_level="1"
+   use_message_filter="false">
+   <to_channel>
+   </to_channel>
+   <from_http
+      type="mapper"
+      guid="demo_WebAPI-FromHTTP-fByZ7IEES1POgR"
+      commit_id="6ea2f4935791c08b876a372e88acb5fba00b2a78"
+      commit_comment="Import Translators: d"
+      mapper_url_path="iucwebdevdemo"/>
+   <message_filter
+      filter_after_logging="false"
+      log_pre_post_filter_message="true"
+      keep_vmd_updated="false"
+      original_vmd_path=""
+      filter_vmd_path=""
+      transformation_mode="0"
+      scripted_transformation_configuration_name="default"
+      error_handling="0"
+      use_translator_filter="true">
+   </message_filter>
+</channel>
